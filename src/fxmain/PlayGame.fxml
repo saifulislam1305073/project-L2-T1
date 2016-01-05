@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxmain.PlayGameController">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="960.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Field.png" />
+         </image>
+      </ImageView>
+      <Circle fx:id="Player1" fill="#ff411f" layoutX="287.0" layoutY="145.0" onMouseDragged="#dragAction" onMouseReleased="#releaseAction" radius="28.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>

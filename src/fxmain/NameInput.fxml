@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxmain.nameController">
+   <children>
+      <Label layoutX="213.0" layoutY="105.0" text="Enter Your Name">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameInput" layoutX="201.0" layoutY="174.0" prefHeight="42.0" prefWidth="215.0" promptText="Player Name" />
+      <Button fx:id="nextButton" layoutX="259.0" layoutY="240.0" mnemonicParsing="false" onAction="#nextAction" prefHeight="39.0" prefWidth="77.0" text="Next">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
